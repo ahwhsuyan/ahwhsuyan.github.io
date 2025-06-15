@@ -8,7 +8,7 @@
 
 # 网站设置
 title: "Yan Su(苏言)"
-description: "Everything that rises must converge"
+description: '"Everything that rises must converge."'
 repository: "ahwhsuyan/ahwhsuyan.github.io"
 google_scholar_stats_use_cdn: true
 
@@ -24,7 +24,7 @@ baidu_site_verification: # 从 https://ziyuan.baidu.com/login/index?u=/site/inde
 author:
   name: "Yan Su(苏言)"
   avatar: "images/android-chrome-512x512.png"
-  bio: "School of Computer Science, Changsha University of Science and Technology."
+  bio: "School of Computer, Changsha University of Science and Technology."
   location: "Changsha,China"
   employer:
   pubmed:
