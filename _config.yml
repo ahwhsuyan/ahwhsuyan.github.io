@@ -8,7 +8,7 @@
 
 # 网站设置
 title: "Yan Su(苏言)"
-description: "Focusing on Deep Learning, NLP, and LLM. "
+description: "School of Computer Science, Changsha University of Science and Technology"
 repository: "ahwhsuyan/ahwhsuyan.github.io"
 google_scholar_stats_use_cdn: true
 
@@ -24,9 +24,9 @@ baidu_site_verification: # 从 https://ziyuan.baidu.com/login/index?u=/site/inde
 author:
   name: "Yan Su(苏言)"
   avatar: "images/android-chrome-512x512.png"
-  bio: "Focusing on Deep Learning, NLP, and LLM. "
+  bio: "Everything that rises must converge."
   location: "Changsha,China"
-  employer: "School of Computer Science, Changsha University of Science and Technology"
+  employer:
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=TdWU3DYAAAAJ"
   email: "yan.su@stu.csust.edu.cn"
