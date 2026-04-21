@@ -1,0 +1,157 @@
+# 欢迎使用 Jekyll！
+#
+# 此配置文件用于设置影响整个网站的配置项，
+# 这些值通常只需要设置一次，之后很少需要修改。
+# 由于技术原因，当你使用 `jekyll serve` 时，
+# 此文件*不会*自动重新加载。如果你修改了此文件，
+# 请重启服务器进程。
+
+# 网站设置
+title: "Yan Su(苏言)"
+description: '"Everything that rises must converge."'
+repository: "ahwhsuyan/ahwhsuyan.github.io"
+google_scholar_stats_use_cdn: true
+
+# Google 分析
+google_analytics_id: # 从 https://analytics.google.com/analytics/ 获取 google_analytics_id
+
+# SEO 相关
+google_site_verification: # 从 https://search.google.com/search-console/about 获取 google_site_verification
+bing_site_verification: # 从 https://www.bing.com/webmasters/about 获取 bing_site_verification
+baidu_site_verification: # 从 https://ziyuan.baidu.com/login/index?u=/site/index 获取 baidu_site_verification
+
+# 网站作者
+author:
+  name: "苏言 Yan Su"
+  avatar: "images/android-chrome-512x512.png"
+  bio: "School of Computer, Changsha University of Science and Technology."
+  location: "Changsha,China"
+  employer:
+  pubmed:
+  googlescholar: "https://scholar.google.com/citations?user=TdWU3DYAAAAJ"
+  email: "yan.su@stu.csust.edu.cn"
+  researchgate: # 例如："https://www.researchgate.net/profile/yourprofile"
+  uri:
+  bitbucket:
+  codepen:
+  dribbble:
+  flickr:
+  facebook:
+  foursquare:
+  github: "ahwhsuyan"
+  google_plus:
+  keybase:
+  instagram:
+  impactstory: # 例如："https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm:
+  linkedin: # 例如："linkedin username"
+  dblp: # 例如："https://dblp.org/pid/xx/xxxx.html"
+  orcid: # 例如："https://orcid.org/xxxx"
+  pinterest:
+  soundcloud:
+  stackoverflow: # http://stackoverflow.com/users/123456/username
+  steam:
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  xing:
+  youtube:
+  wikipedia:
+
+# 读取文件
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# 转换
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown 处理
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# 默认值
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# 输出
+permalink: /:categories/:title/
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# 插件
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# 使用 --safe 模拟 GitHub Pages
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# HTML 压缩
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
