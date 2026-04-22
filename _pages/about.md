@@ -18,16 +18,16 @@ I am currently a sophomore majoring in **Computer Science and Technology** at th
 
 My research interests lie in **deep learning, large language models (LLM),**, with a recent focus on:
 
-<!-- - LLM-based fake news detection
-- LLM Post-Training & DeepSpeed-Inference -->
+- LLM-based fake news detection
+- LLM Post-Training & DeepSpeed-Inference 
 
 I am committed to building theoretically sound and practically effective deep learning systems to provide reliable solutions for real‑world scenarios.
 
 # 🔥 News
 
-- _2025.02_: Co-first-author paper _RAAR_ submitted to **WISE 2025** (under review).
+- _2026.04_: Co-first-author paper _RAAR_ submitted to **WISE 2025** (under review).
 - _2025.04_: 🎉 First-author paper _MSMA‑Net_ accepted by **ICPR 2024** (CCF C).
-- _2025.03_: First-author paper _SFAT‑Net_ submitted to **ICIC 2025** (under review).
+- _2026.03_: First-author paper _SFAT‑Net_ submitted to **ICIC 2025** (under review).
 - _2025.11_: Won **National First Prize** in the 7th Global Campus AI Algorithm Elite Competition.
 - _2025.05_:  🎉🎉 Two papers, focusing on 3D object detection and diffusion model-based point cloud generation, were submitted to ICONIP (CCF-C, third author).
 
