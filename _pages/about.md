@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "[https://cdn.jsdelivr.net/gh/](https://cdn.jsdelivr.net/gh/)" | append: site.repository | append: "@" %}
 {% else %}
@@ -19,7 +20,8 @@ I am currently a sophomore majoring in **Computer Science and Technology** at th
 My research interests lie in **deep learning, large language models (LLM),**, with a recent focus on:
 
 - LLM-based fake news detection
-- LLM Post-Training & DeepSpeed-Inference 
+- LLM Post-Training
+- LLM DeepSpeed-Inference
 
 I am committed to building theoretically sound and practically effective deep learning systems to provide reliable solutions for real‑world scenarios.
 
