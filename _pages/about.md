@@ -1,52 +1,50 @@
 ---
-permalink: /
+
+## permalink: /
+
 title: ""
 excerpt: ""
 author_profile: true
 redirect_from:
-  - /about/
-  - /about.html
----
+
+- /about/
+- /about.html
 
 {% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% assign gsDataBaseUrl = "[https://cdn.jsdelivr.net/gh/](https://cdn.jsdelivr.net/gh/)" | append: site.repository | append: "@" %}
 {% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% assign gsDataBaseUrl = "[https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+I am currently a sophomore majoring in **Computer Science and Technology** at the School of Computer Science and Technology, **Changsha University of Science and Technology**.
 
-I am currently a sophomore majoring in Computer Science and Technology at the School of Computer Science, Changsha University of Science and Technology..
+My research interests lie in **deep learning, large language models (LLM),**, with a recent focus on:
 
-My research interests focus on deep learning, computer vision, large language models (LLM), and natural language processing (NLP). Recently, I have been mainly focusing on:
-(1) LLM Inference Acceleration
-(2) LLM Post-Training
+- LLM-based fake news detection
+- LLM Post-Training & DeepSpeed-Inference
 
-My research aims to construct theoretically elegant and practically effective model systems, providing trustworthy solutions for the urgent needs of contemporary society.
-
-<!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
+I am committed to building theoretically sound and practically effective deep learning systems to provide reliable solutions for real‑world scenarios.
 
 # 🔥 News
 
-- _2025.03_: &nbsp;🎉🎉 A paper on smart grid security and artificial intelligence applications, submitted to _IEEE Transactions on Power Systems_ (SCI Q1).Congratulations to myself on publishing my first first-author paper!
-- _2022.05_: &nbsp;🎉🎉 Two papers, focusing on 3D object detection and diffusion model-based point cloud generation, were submitted to ICONIP (CCF-C, third author).
+- _2025.02_: Co-first-author paper _RAAR_ submitted to **WISE 2025** (under review).
+- _2025.04_: 🎉 First-author paper _MSMA‑Net_ accepted by **ICPR 2024** (CCF C).
+- _2025.03_: First-author paper _SFAT‑Net_ submitted to **ICIC 2025** (under review).
+- _2025.11_: Won **National First Prize** in the 7th Global Campus AI Algorithm Elite Competition.
+- _2025.05_:  🎉🎉 Two papers, focusing on 3D object detection and diffusion model-based point cloud generation, were submitted to ICONIP (CCF-C, third author).
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+CVPR 2016
 
 [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
 **Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+**[Project](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)**
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-</div>
-</div>
-
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
@@ -62,7 +60,7 @@ My research aims to construct theoretically elegant and practically effective mo
 # 💬 Invited Talks
 
 - _2021.06_, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-- _2021.03_, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. \| [\[video\]](https://github.com/)
+- _2021.03_, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. [[video]](https://github.com/)
 
 # 💻 Internships
 
