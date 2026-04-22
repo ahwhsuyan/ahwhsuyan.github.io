@@ -21,8 +21,8 @@ I am currently a sophomore majoring in **Computer Science and Technology** at th
 
 My research interests lie in **deep learning, large language models (LLM),**, with a recent focus on:
 
-- LLM-based fake news detection
-- LLM Post-Training & DeepSpeed-Inference
+<!-- - LLM-based fake news detection
+- LLM Post-Training & DeepSpeed-Inference -->
 
 I am committed to building theoretically sound and practically effective deep learning systems to provide reliable solutions for real‑world scenarios.
 
